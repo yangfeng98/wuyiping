@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>Cali Castle</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者
               </Text>
               <Text className="text-center">
                 <Link
@@ -61,25 +61,25 @@ export default function Layout({
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/youtube"
+                  href="https://www.youtube.com/@daqinmachine"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/github"
+                  href="https://github.com/yangfeng98"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
-                <Link
+                {/* <Link
                   href="https://cali.so/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩
-                </Link>
+                </Link> */}
               </Text>
             </Section>
           </Container>
