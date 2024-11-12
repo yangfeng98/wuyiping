@@ -3,9 +3,9 @@
 import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
-import { SparkleIcon, UserSecurityIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
-import { SocialLink } from '~/components/links/SocialLink'
+// import { SparkleIcon, UserSecurityIcon } from '~/assets'
+// import { PeekabooLink } from '~/components/links/PeekabooLink'
+// import { SocialLink } from '~/components/links/SocialLink'
 
 function Developer() {
   return (
@@ -63,9 +63,10 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
+        <Developer />
+        {/* <Designer />， */}
         <span className="block h-2" />
-        <OCD />，<Founder />
+        {/* <OCD />，<Founder /> */}
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
