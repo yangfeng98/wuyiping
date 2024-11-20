@@ -5,8 +5,8 @@ import { Button, Heading, Hr, Img, Link, Section, Text } from './_components'
 import Layout from './Layout'
 
 const ConfirmSubscriptionEmail = ({ link = 'link.com/confirm?fake-token' }) => {
-  const previewText = `确认订阅 Cali 的动态吗？`
-
+  // const previewText = `确认订阅 Cali 的动态吗？`
+  const previewText = `确认订阅 大帅哥杨锋 的动态吗？`
   return (
     <Layout previewText={previewText}>
       <Section className="mt-[24px]">
@@ -19,7 +19,7 @@ const ConfirmSubscriptionEmail = ({ link = 'link.com/confirm?fake-token' }) => {
         />
       </Section>
       <Heading className="mx-0 my-[30px] p-0 text-center text-[24px] font-bold text-black">
-        订阅 Cali 的动态
+      订阅 大帅哥杨锋 的动态
       </Heading>
       <Text className="text-[14px] leading-[24px] text-black">Hello!</Text>
       <Text className="text-[14px] leading-[24px] text-black">
