@@ -93,7 +93,7 @@ export function Newsletter({ subCount }: { subCount?: string }) {
         {subCount && (
           <span>
             {/* 加入其他 <span className="font-medium">{subCount}</span> 位订阅者， */}
-            join <span className="font-medium">{subCount}</span> other subscriber.
+            join <span className="font-medium">{subCount}</span> other subscriber
           </span>
         )}
         <span>
