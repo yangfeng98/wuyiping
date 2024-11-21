@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
-import { SparkleIcon, UserSecurityIcon } from '~/assets'
+// import { SparkleIcon, UserSecurityIcon } from '~/assets'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
@@ -82,7 +82,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-        <PeekabooLink href="https://www.chinee.net/">DAQIN's</PeekabooLink>
+        <PeekabooLink href="https://www.chinee.net/">DAQIN&apos;s</PeekabooLink>
         product, the idskin cutting machine, supports multi-device integration and offers over 58,000 data models, covering smartphones, tablets, laptops, PS4, PS5, Xbox, and more. Each design is manually tested on real devices, crafted by professional designers, with a precision error of less than 0.03mm.
           {/* 我是 杨锋，这是一个日记本 */}
           {/* <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
@@ -106,13 +106,14 @@ export function Headline() {
           href="https://cali.so/twitter"
           aria-label="我的推特"
           platform="twitter"
-        />
+        /> */}
         <SocialLink
-          href="https://cali.so/youtube"
+          href="https://www.youtube.com/@daqinmachine"
           aria-label="我的 YouTube"
           platform="youtube"
         />
-        <SocialLink
+        
+        {/* <SocialLink
           href="https://cali.so/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
@@ -126,9 +127,9 @@ export function Headline() {
           href="https://cali.so/tg"
           aria-label="我的 Telegram"
           platform="telegram"
-        />
-        <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
-        <SocialLink
+        /> */}
+        {/* <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" /> */}
+        {/* <SocialLink
           href="mailto:hi@cali.so"
           aria-label="我的邮箱"
           platform="mail"
