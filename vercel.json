@@ -1,6 +1,12 @@
 {
-  "buildCommand": "pnpm turbo build",
+  "buildCommand": "npm run build",
+  "env": {
+    "NODE_VERSION": "18.17.1"
+  },
   "github": {
     "silent": true
   }
+
+  
 }
+
