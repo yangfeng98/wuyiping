@@ -1,8 +1,8 @@
 export const navigationItems = [
-  { href: '/', text: '首页' },
-  { href: '/blog', text: '博客' },
-  { href: '/projects', text: '项目' },
-  { href: '/guestbook', text: '留言墙' },
-  { href: '/ama', text: 'YF' },
+  { href: '/', text: 'Home' },
+  { href: '/blog', text: 'Detail' },
+  { href: '/projects', text: 'Partner' },
+  { href: '/guestbook', text: 'Message' },
+  { href: '/ama', text: 'About us' },
   // { href: '/about', text: '关于' },
 ]

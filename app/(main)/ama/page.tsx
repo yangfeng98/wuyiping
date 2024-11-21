@@ -10,7 +10,8 @@ import ThankYouLetterScreenshot2 from './Arc ynleUdHy@2x.png'
 
 const title = 'yangfeng|wuyiping'
 const description =
-  '最近的目标是带爷爷奶奶来北京旅游'
+  // '最近的目标是带爷爷奶奶来北京旅游'
+  'DAQIN was established in 2002 Beijing, China and the main business line is custom mobile phone cases project. There are currently over 3000 franchisees. We have been expanding overseas business since 2006. Custom mobile phone cases machine has been selling well in over 135 countries, certified by SGS and the ministry of commerce of the People’s Republic of China franchise brand, in the same time it also has acquired over 20 patents for innovation and over 50 registered trademarks.'
 
 export const metadata = {
   title,
@@ -31,10 +32,13 @@ export default function AskMeAnythingPage() {
     <Container className="mt-16 sm:mt-24">
       <header className="max-w-2xl">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          yangfeng / 杨锋
+        About DAQIN
         </h1>
         <p className="my-6 text-base text-zinc-600 dark:text-zinc-400">
-          <Balancer>{description}</Balancer>
+          <Balancer>{description}
+          
+          <p>The 1st business school of custom mobile phone cases in the world was established in 2015 by DAQIN. It has bring great influence on the people who love customized mobile phone decorations and business creators.</p>
+          </Balancer>
         </p>
       </header>
 

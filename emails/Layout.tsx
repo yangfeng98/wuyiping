@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>Cali Castle</strong>
                 </Link>
                 <br />
-                开发者
+                开发者idskin
               </Text>
               <Text className="text-center">
                 <Link
