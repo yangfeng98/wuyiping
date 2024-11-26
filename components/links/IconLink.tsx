@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Image from 'next/image'
 const IconLink = ({ defaultIcon, hoverIcon, link, tipText }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -12,7 +12,7 @@ const IconLink = ({ defaultIcon, hoverIcon, link, tipText }) => {
       onMouseLeave={() => setIsHovered(false)}
       style={{ display: "inline-block", textDecoration: "none", position: "relative" }}
     >
-      <img
+      <Image
         src={isHovered ? hoverIcon : defaultIcon}
         alt="icon"
         style={{
