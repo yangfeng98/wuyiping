@@ -15,9 +15,9 @@ const IconLink = ({ defaultIcon, hoverIcon, link, tipText }) => {
       <Image
         src={isHovered ? hoverIcon : defaultIcon}
         alt="icon"
+        width={25}
+        height={25}
         style={{
-          width: 25, // 图标大小
-          height: 25,
           transition: "transform 0.3s ease", // 鼠标划过时的动画效果
           transform: isHovered ? "scale(1.1)" : "scale(1)", // 鼠标划过时放大
         }}

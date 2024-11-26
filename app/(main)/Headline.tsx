@@ -7,14 +7,14 @@ import Balancer from 'react-wrap-balancer'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
 // import { SocialLink } from '~/components/links/SocialLink'
 import IconLink from "~/components/links/IconLink";
-const defaultYoutube = "./images/youtube.png";
-const hoverYoutube = "./images/youtube (1).png";
-const defaultFacebook = "./images/facebook.png";
-const hoverFacebook = "./images/facebook (1).png";
-const defaultIns = "./images/ins.png";
-const hoverIns = "./images/ins (1).png";
-const defaultTiktok = "./images/tiktok.png";
-const hoverTiktok = "./images/Tiktok (1).png";
+const defaultYoutube = "/images/youtube.png";
+const hoverYoutube = "/images/youtube (1).png";
+const defaultFacebook = "/images/facebook.png";
+const hoverFacebook = "/images/facebook (1).png";
+const defaultIns = "/images/ins.png";
+const hoverIns = "/images/ins (1).png";
+const defaultTiktok = "/images/tiktok.png";
+const hoverTiktok = "/images/Tiktok (1).png";
 
 function Developer() {
   return (
