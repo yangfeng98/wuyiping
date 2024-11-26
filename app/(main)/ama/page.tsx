@@ -1,14 +1,16 @@
-// import Image from 'next/image'
+import Image from 'next/image'
 import Balancer from 'react-wrap-balancer'
 
 // import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
-// import AlipayQR from './alipay-qr.jpg'
+import exhibition04 from './exhibition04.jpg'
+import exhibition02 from './exhibition02.jpg'
+import exhibition03 from './exhibition03.jpg'
 // import ThankYouLetterScreenshot1 from './Arc aagD26w9@2x.png'
 // import ThankYouLetterScreenshot2 from './Arc ynleUdHy@2x.png'
 
-const title = 'yangfeng|wuyiping'
+const title = 'About us | DAQIN'
 const description =
   // '最近的目标是带爷爷奶奶来北京旅游'
   'DAQIN was established in 2002 Beijing, China and the main business line is custom mobile phone cases project. There are currently over 3000 franchisees. We have been expanding overseas business since 2006. Custom mobile phone cases machine has been selling well in over 135 countries, certified by SGS and the ministry of commerce of the People’s Republic of China franchise brand, in the same time it also has acquired over 20 patents for innovation and over 50 registered trademarks.'
@@ -34,14 +36,23 @@ export default function AskMeAnythingPage() {
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
         About DAQIN
         </h1>
-        <p className="my-6 text-base text-zinc-600 dark:text-zinc-400">
+        <div className="my-6 text-base text-zinc-600 dark:text-zinc-400">
           <Balancer>{description}
           
           <p>The 1st business school of custom mobile phone cases in the world was established in 2015 by DAQIN. It has bring great influence on the people who love customized mobile phone decorations and business creators.</p>
           </Balancer>
-        </p>
+        </div>
       </header>
+      <article className="prose dark:prose-invert">
+        <div className="grid items-center gap-4 lg:grid-cols-3">
+          <Image height={300} className="max-w-full" src={exhibition03} alt="hongkong 2024 exhibition"  />
+          <Image height={300} className="max-w-full" src={exhibition02} alt="hongkong 2024 exhibition"  />
+          <Image height={300} className="max-w-full" src={exhibition04} alt="hongkong 2024 exhibition"  />
+        </div>
+              
+      </article>
 
+      
       {/* <article className="prose dark:prose-invert">
         <h2>咨询内容</h2>
         <p>我可以为你解答以下相关的问题：</p>

@@ -5,7 +5,16 @@ import Balancer from 'react-wrap-balancer'
 
 // import { SparkleIcon, UserSecurityIcon } from '~/assets'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
-import { SocialLink } from '~/components/links/SocialLink'
+// import { SocialLink } from '~/components/links/SocialLink'
+import IconLink from "~/components/links/IconLink";
+const defaultYoutube = "./images/youtube.png";
+const hoverYoutube = "./images/youtube (1).png";
+const defaultFacebook = "./images/facebook.png";
+const hoverFacebook = "./images/facebook (1).png";
+const defaultIns = "./images/ins.png";
+const hoverIns = "./images/ins (1).png";
+const defaultTiktok = "./images/tiktok.png";
+const hoverTiktok = "./images/Tiktok (1).png";
 
 function Developer() {
   return (
@@ -107,12 +116,32 @@ export function Headline() {
           aria-label="我的推特"
           platform="twitter"
         /> */}
-        <SocialLink
+        {/* <SocialLink
           href="https://www.youtube.com/@daqinmachine"
           aria-label="我的 YouTube"
           platform="youtube"
-        />
-        
+        /> */}
+        <IconLink  defaultIcon={defaultYoutube}
+        hoverIcon={hoverYoutube}
+        link="https://www.youtube.com/@daqinmachine"
+        tipText="Youtube">
+        </IconLink>
+        <IconLink  defaultIcon={defaultFacebook}
+        hoverIcon={hoverFacebook}
+        link="https://www.facebook.com/profile.php?id=100091772726335"
+        tipText="Facebook">
+        </IconLink>
+        <IconLink  defaultIcon={defaultIns}
+        hoverIcon={hoverIns}
+        link="https://www.instagram.com/idskin/reels/"
+        tipText="instagram">
+        </IconLink>
+        <IconLink  defaultIcon={defaultTiktok}
+        hoverIcon={hoverTiktok}
+        link="https://www.tiktok.com/@phoneskinmaker?lang=zh-Hans"
+        tipText="Tiktok">
+        </IconLink>
+
         {/* <SocialLink
           href="https://cali.so/bilibili"
           aria-label="我的 Bilibili"

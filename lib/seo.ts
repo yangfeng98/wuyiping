@@ -1,5 +1,5 @@
 export const seo = {
-  title: 'yangshuming | wuyiping',
+  title: 'IDSKIN',
   description:
     '杨锋，开发者',
   url: new URL(

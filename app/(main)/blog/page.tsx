@@ -8,14 +8,14 @@ import { BlogPosts } from './BlogPosts'
 const description =
   'This is a knowledge base created for idskin, where you can learn how to use idskin, what it can do, the types of phone screen protectors, and their differences...'
 export const metadata = {
-  title: '我的博客',
+  title: 'Detail',
   description,
   openGraph: {
-    title: '我的博客',
+    title: 'Detail',
     description,
   },
   twitter: {
-    title: '我的博客',
+    title: 'Detail',
     description,
     card: 'summary_large_image',
   },
