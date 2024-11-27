@@ -7,6 +7,20 @@ import { Container } from '~/components/ui/Container'
 import exhibition04 from './exhibition04.jpg'
 import exhibition02 from './exhibition02.jpg'
 import exhibition03 from './exhibition03.jpg'
+import Factory01 from './Factory (1).jpg'
+import Factory02 from './Factory (2).jpg'
+import Patent01 from './Patent (1).jpg'
+import Patent02 from './Patent (2).jpg'
+import Patent03 from './Patent (3).jpg'
+import Patent04 from './Patent (4).jpg'
+import Patent05 from './Patent (5).jpg'
+import Patent06 from './Patent (6).jpg'
+import Patent07 from './Patent (7).jpg'
+import Patent08 from './Patent (8).jpg'
+import Patent09 from './Patent (9).jpg'
+import Patent10 from './Patent (10).jpg'
+import Patent11 from './Patent (11).jpg'
+import Patent12 from './Patent (12).jpg'
 // import ThankYouLetterScreenshot1 from './Arc aagD26w9@2x.png'
 // import ThankYouLetterScreenshot2 from './Arc ynleUdHy@2x.png'
 
@@ -38,17 +52,63 @@ export default function AskMeAnythingPage() {
         </h1>
         <div className="my-6 text-base text-zinc-600 dark:text-zinc-400">
           <Balancer>{description}
-          
           <p>The 1st business school of custom mobile phone cases in the world was established in 2015 by DAQIN. It has bring great influence on the people who love customized mobile phone decorations and business creators.</p>
           </Balancer>
         </div>
       </header>
+     
+      
+
       <article className="prose dark:prose-invert">
-        <div className="grid items-center gap-4 lg:grid-cols-3">
-          <Image height={300} className="max-w-full" src={exhibition03} alt="hongkong 2024 exhibition"  />
-          <Image height={300} className="max-w-full" src={exhibition02} alt="hongkong 2024 exhibition"  />
-          <Image height={300} className="max-w-full" src={exhibition04} alt="hongkong 2024 exhibition"  />
+         <div className='OurExhibitions '>
+            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
+                Our Exhibitions
+            </h1> 
+            <Balancer>DAQIN professional in custom mobile phone skin software and machine, sell well in 135 countries
+since 2002, has 3000 franchisees all over the world!</Balancer>
+            <div className="grid items-center gap-4 lg:grid-cols-3">
+          <Image height={330} className="max-w-full" src={exhibition03} alt="hongkong 2024 exhibition"  />
+          <Image height={330} className="max-w-full" src={exhibition02} alt="hongkong 2024 exhibition"  />
+          <Image height={330} className="max-w-full" src={exhibition04} alt="hongkong 2024 exhibition"  />
         </div>
+      </div>
+       <div className='OurFactory'>
+            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
+              Our Factory
+            </h1>
+            <Balancer>Craftsmanship and quality first! We adhere to strict quality control processes,
+               meticulously overseeing every step from raw material selection to final inspection. 
+               Choose us for reliable products that meet the highest standards.</Balancer>
+            <div className="grid items-center gap-4 lg:grid-cols-2">
+            <Image  height={500} className="max-w-full" src={Factory01} alt="hongkong 2024 exhibition"  />
+              <Image  height={500} className="max-w-full" src={Factory02} alt="hongkong 2024 exhibition"  />
+           
+            </div>
+       </div>
+       <div className='OurHonor'>
+        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
+                Our Honor
+                </h1>
+                <Balancer>National patent, advanced technology, focus on 19 years. With 30+ national patents,
+                   the 1st custom mobile phone skin design software was born in 2002.
+                    19 years optimizing, Worthy of Trust !</Balancer>
+                <div className="grid items-center gap-4 lg:grid-cols-4">
+                <Image  height={470} className="max-w-full" src={Patent01} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent02} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent03} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent04} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent05} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent06} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent07} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent08} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent09} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent10} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent11} alt="hongkong 2024 exhibition"  />
+                  <Image  height={470} className="max-w-full" src={Patent12} alt="hongkong 2024 exhibition"  />
+                </div>
+       </div>
+       
+        
               
       </article>
 
