@@ -23,7 +23,7 @@ const ConfirmSubscriptionEmail = ({ link = 'link.com/confirm?fake-token' }) => {
       </Heading>
       <Text className="text-[14px] leading-[24px] text-black">Hello!</Text>
       <Text className="text-[14px] leading-[24px] text-black">
-        为了认证此操作，请点击下面的按钮确认订阅 Cali 的动态噢，谢谢 🙏
+        为了认证此操作，请点击下面的按钮确认订阅 大帅哥杨锋 的动态噢，谢谢 🙏
       </Text>
       <Section className="mb-[32px] mt-[32px] text-center">
         <Button
