@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | wyp',
+    template: '%s | yp',
     default: seo.title,
   },
   description: seo.description,
-  keywords: '杨锋,开发者，98yp',
+  keywords: '杨锋yiping98',
   manifest: '/site.webmanifest',
   robots: {
     index: true,

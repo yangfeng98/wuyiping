@@ -1,7 +1,7 @@
 export const seo = {
-  title: 'yangshuming | wuyiping',
+  title: 'yiping',
   description:
-    '杨锋，开发者',
+    '杨锋，yiping',
   url: new URL(
     process.env.NODE_ENV === 'production'
       ? 'https://cali.so'
